@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./node_modules/p5/lib/p5.min.js"></script>
+    <script src="./node_modules/p5/lib/addons/p5.sound.min.js"></script>
+    <script src="./node_modules/handtrackjs/dist/handtrack.min.js"> </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="mb10">
+   <button onclick="toggleVideo()" id="trackbutton" class="bx--btn bx--btn--secondary" type="button">
+     Toggle Video
+   </button>
+   <div id="updatenote" class="updatenote mt10"> loading model ..</div>
+ </div>
+ <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video> 
+</br>
+
+
+ <!-- Video -->
+ <video id="rolladen" width="640" height="352" controls="controls">
+  <source src="video/rolladen.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+ </video>
+
+ 
+ <canvas id="canvas" class="border canvasbox"></canvas>
+   <script src="sketch.js"></script>
+ </body>
+</html>

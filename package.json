@@ -1,0 +1,17 @@
+{
+  "name": "startertemplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "handtrackjs": "^0.1.5",
+    "live-server": "^1.1.0",
+    "node-yeelight-wifi": "^0.1.4",
+    "p5": "^1.4.0",
+    "yeelight-platform": "^1.0.9",
+    "yeelight.io": "^1.1.7"
+  },
+  "scripts": {
+    "start": "live-server ."
+  }
+}
